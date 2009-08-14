@@ -1,0 +1,25 @@
+Google-Calendar-Week-Numbers
+
+Developer: Craig Wilson
+HomePage: http://cawilson.co.uk/?page_id=143
+Contact: dev@cawilson.co.uk
+
+A simple perl script to output an ical file made with the intention of being imported into google calendar to display week numbers.
+
+useage
+
+GCWN [year] [month] [date] [no of weeks] [starting week number]
+
+Required
+Year: a value between 2000 and 2020
+Month: a value between 1-12
+Date: a value valid for the corrisponding month
+
+Optional
+No of weeks: the number of weeks you wish to generate numbers for
+Starting Week Number: The week number you wish to start the cycle on.
+
+
+Notes: 
+-there is no provison for a 53 week year
+-my recomendation is you put this in a seperate calender since the events are not linked in anyway each even would need to be deleted manualy in the event of a mistake. if the entire list is in a dedicated calendar it is easy to just delete the calendar.
